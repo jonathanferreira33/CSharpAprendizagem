@@ -16,6 +16,7 @@ diaDaSemana = (Enumerador)0; // typecast, conversao explicita
 
 //OPERADORES
 //relacionais > < != += -=
+//mod % = resto da divisao
 //logicos & = AND ou E | || = OR ou OU
 //Bitwise << DOBRAR | >> METADE
 var multiplicacao = numero * numero2;
@@ -24,6 +25,10 @@ verdadeiroOuFalso = 10 > 5; //true
 verdadeiroOuFalso = 100 < 50; //false
 verdadeiroOuFalso = 9 != 0.9; //false
 result += 1; // igual a result = result + 1 ou result++
+
+int resto =  30 % 4;
+Console.WriteLine("Resto = " + resto); //2
+
 
 verdadeiroOuFalso = (5 > 3) | (50 < 150); // TRUE caso pelo menos uma das operações é veradeira
 verdadeiroOuFalso = (5 < 3) & (50 < 150); // FALSE caso pelo menos 1 seja false
@@ -77,7 +82,7 @@ int nota = 10;
 int media = 5;
 
 //if ternario
-var aprovacao = (nota >= media) ? "Aprovado" : "reprovado";
+var aprovacao = (nota >= media) ? "Aprovado linha 85" : "reprovado";
 Console.WriteLine(aprovacao);
 
 
@@ -88,12 +93,129 @@ Metodos.SwitchCase(nota);
 //METODOS
 Metodos.Aprovacao(nota, media);
 
+int numero3 = 10;
+int numero4 = 10;
+
+Metodos.DobrarPorValor(numero3);
+Console.WriteLine($"Passagem por valor: {numero3}");
+
+Metodos.DobrarPorReferencia(ref numero4);
+Console.WriteLine($"Passagem por referencia: {numero4}");
+
+string maisAlgumaCoisa = "a";
+int restoDivisao;
+int quociente = Metodos.Divide(30, 4, out restoDivisao, maisAlgumaCoisa);
+
+Console.WriteLine($"30/4 = {quociente} e o resto é {restoDivisao}");
+
+int somarComparams = Metodos.Soma();
+Console.WriteLine(somarComparams);
 
 //GOTO
-inicio: //label
+//inicio: //label
 bool palmeirasTemMundial = false;
 
-if (!palmeirasTemMundial) goto inicio;
+//if (!palmeirasTemMundial) goto inicio;
+
+
+//ARRAY/vetor unidimencional
+int[] array01 = new int[5]; //declaração de array com 5 posições (0 a 4)
+int[] array02 = new int[3] {0, 55, 40};
+int[] array03 = { 0, 20, 440 };
+
+array01[4] = 1;
+array01[2] = 3;
+array01[3] = 2;
+array01[1] = 4;
+array01[0] = 5;
+
+// 0 1 2 3 4 
+//[5,4,3,2,1]
+
+Console.WriteLine(array01[4]);// imprimir x posição
+
+Console.WriteLine(array02[2]);// 40
+
+Console.WriteLine(array03[2]);// 440
+
+//MAIS DETALHES EM METODOS.METODOSPARAARRAYS
+
+
+//array bidimencional
+int[,] arrayBi1 = new int[5,3]; //5 linhas e 3 colunas
+int[,] arrayBi2 = new int[2, 2] {{ 10, 20 }, { 15, 30 }};
+/*
+ * 0 20 30
+ * 2 30 11 
+ * 4 14 15
+ * 8 99 98
+ * 0 15 23
+ */
+arrayBi1[0,2] = 30;
+arrayBi1[4,2] = 23;
+arrayBi1[2,1] = 14;
+arrayBi1[0,0] = 0;
+arrayBi1[3,2] = 99;
+arrayBi1[4,1] = 15;
+
+
+Console.WriteLine("LAÇO FOR:");
+
+//INTERAÇAO FOR
+//Principalmente usado quando se sabe o numero de comandos
+
+//   contador  ; expressao logica  ; incremento ou decremento
+for (int i = 0 ; i < array01.Length; i++ )
+{
+    Console.WriteLine(array01[i]);
+    if (array01[i] == 2) break;
+}
+
+// FOREACH
+int[] numbers = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+int total = 0;
+foreach (int number in numbers)
+{
+    total += number;
+    if (number == 3)
+    {
+        Console.WriteLine(" Acessei o IF e retornei ao foreach");
+        continue;
+    }
+    if (number == 7) break; // encerra apenas o loop mais interno que a contém
+    if (total == 5) return; //encerra a execução da função em que aparece e devolve o controle e o resultado da função, se houver, ao chamador.
+
+    Console.Write($"Numero = {number} |");
+    Console.WriteLine($"Total = {total} ");
+}
+
+// WHILE ñ tiver certeza da quantidade de operações
+
+int anoAtual = 2022;
+while (!palmeirasTemMundial)
+{
+    while (anoAtual < 3000)
+    {
+        Console.WriteLine("Cheirinho, Ano = {0} ", anoAtual);
+        anoAtual++;
+    }
+    palmeirasTemMundial = true;
+}
+Console.WriteLine($"Ano= {anoAtual}, TALVEZ, QUASE CERTEZA Q Ñ");
+Console.Clear();
+
+
+do
+{
+    Console.WriteLine("Acesso pelo menos 1 vez");
+} while (!palmeirasTemMundial);
+
+
+
+
+
+
+
 
 //Tipos numericos
 //https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
