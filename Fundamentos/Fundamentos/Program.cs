@@ -1,7 +1,28 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Fundamentos;
+using System.Globalization;
 
 //TIPOS
+// - Para tipos inteiros
+sbyte a = 100; // Predefinido
+SByte b = 101; // tipo do .NET
+short c = 102;
+int d = 103;
+long e = 104;
+byte f = 105; //sem sinal 
+ushort g = 106; 
+ulong h = 107;
+uint i = 108;
+
+// - Com pontos fluantes
+float j = 10.5f;
+double k = 50.50d;
+char l = 'a'; // aspas simples
+char m = '\u0041'; // == letra A em unicode. Referencia= https://unicode-table.com/en/
+char m2 = '\u00AE'; // == ®
+bool n = false;   
+decimal o = decimal.MinusOne;
+
 const string url = "https://github.com/jonathanferreira33/"; //constante ñ pode ser alterado depois de atribuido
 string endpoint = "CSharpAprendizagem";
 var url2 = $"{url}{endpoint}"; // concatenação
@@ -15,10 +36,26 @@ Enum diaDaSemana = Enumerador.DOMINGO; //
 diaDaSemana = (Enumerador)0; // typecast, conversao explicita
 
 //OPERADORES
-//relacionais > < != += -=
+//relacionais > < != += -= *= /= %= (operadores de atribuição cumulativa)
+// ++ e -- 
 //mod % = resto da divisao
 //logicos & = AND ou E | || = OR ou OU
 //Bitwise << DOBRAR | >> METADE
+
+string aString = "ABC";
+aString += "JKL";
+Console.WriteLine(aString); //atalho: cw tab tab
+
+int aa = 10;
+aa += 2; // 12
+aa -= 2; // 10 (12 - 2)
+aa *= 2; // 20 (10 * 2)
+aa /= 2; // 10 (20 / 2)
+aa %= 2; // 0 (10 % 2 = 0)
+
+aa++; // soma de 1 em 1
+aa--; // decrementa de 1 em 1
+
 var multiplicacao = numero * numero2;
 var result = (5 + numero6) / 2;
 verdadeiroOuFalso = 10 > 5; //true
@@ -61,7 +98,9 @@ v2 = Convert.ToInt32(Console.ReadLine()); //Converte oq vem no paremetro para in
 int v3 = 10;
 float v4 = v3; //Conversao implicita ou conversao segura
 
-double v5 = 10.15;
+double v5 = 10.15357;
+Console.WriteLine(v5.ToString("F2")); //imprimir um numero com 2(F[NUMERO DE CASAS DESEJAVEIS]) casas decimais e com arredondamento 0 a 4 para baixo e 5 a 9 para cima
+Console.WriteLine(v5.ToString("F3", CultureInfo.InvariantCulture)); // para ignorar qualquer variante de pais, tipo "," ao inves de "." para decimais 
 //float v6 = v5; //ñ possivel de conversao segura
 float v6 = (float)v5; //typecast
 
@@ -165,10 +204,10 @@ Console.WriteLine("LAÇO FOR:");
 //Principalmente usado quando se sabe o numero de comandos
 
 //   contador  ; expressao logica  ; incremento ou decremento
-for (int i = 0 ; i < array01.Length; i++ )
+for (int x = 0 ; x < array01.Length; x++ )
 {
-    Console.WriteLine(array01[i]);
-    if (array01[i] == 2) break;
+    Console.WriteLine(array01[x]);
+    if (array01[x] == 2) break;
 }
 
 // FOREACH
