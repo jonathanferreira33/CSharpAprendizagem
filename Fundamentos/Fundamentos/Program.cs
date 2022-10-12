@@ -10,7 +10,7 @@ short c = 102;
 int d = 103;
 long e = 104;
 byte f = 105; //sem sinal 
-ushort g = 106; 
+ushort g = 106;
 ulong h = 107;
 uint i = 108;
 
@@ -18,9 +18,9 @@ uint i = 108;
 float j = 10.5f;
 double k = 50.50d;
 char l = 'a'; // aspas simples
-char m = '\u0041'; // == letra A em unicode. Referencia= https://unicode-table.com/en/
+char m = '\u0041'; // == letra "A" em unicode. Referencia= https://unicode-table.com/en/
 char m2 = '\u00AE'; // == ®
-bool n = false;   
+bool n = false;
 decimal o = decimal.MinusOne;
 
 const string url = "https://github.com/jonathanferreira33/"; //constante ñ pode ser alterado depois de atribuido
@@ -44,7 +44,7 @@ diaDaSemana = (Enumerador)0; // typecast, conversao explicita
 
 string aString = "ABC";
 aString += "JKL";
-Console.WriteLine(aString); //atalho: cw tab tab
+Console.WriteLine(aString); // += concatena em casdos de string //atalho: cw tab tab
 
 int aa = 10;
 aa += 2; // 12
@@ -63,7 +63,7 @@ verdadeiroOuFalso = 100 < 50; //false
 verdadeiroOuFalso = 9 != 0.9; //false
 result += 1; // igual a result = result + 1 ou result++
 
-int resto =  30 % 4;
+int resto = 30 % 4;
 Console.WriteLine("Resto = " + resto); //2
 
 
@@ -92,11 +92,13 @@ v1 = int.Parse(Console.ReadLine()); //forma 1 de conversão
 
 Console.WriteLine("Digite o segundo valor :");
 v2 = Convert.ToInt32(Console.ReadLine()); //Converte oq vem no paremetro para inteiro
-
+var v22 = double.Parse(Console.ReadLine()); //Converte oq vem no paremetro para double
 
 //TYPECAST conversao de tipos
 int v3 = 10;
-float v4 = v3; //Conversao implicita ou conversao segura
+double v4 = v3; //Conversao implicita ou conversao segura, pois int = 4bytes, logo cabe dentro de 4bytes(double)
+
+// int v33 = v4; // impossivel, já que 8bytes(double) ñ cabe dentro de 4bytes(int)
 
 double v5 = 10.15357;
 Console.WriteLine(v5.ToString("F2")); //imprimir um numero com 2(F[NUMERO DE CASAS DESEJAVEIS]) casas decimais e com arredondamento 0 a 4 para baixo e 5 a 9 para cima
@@ -108,12 +110,9 @@ float v6 = (float)v5; //typecast
 
 
 //IF / ELSE 
-if (v1 > v2)
-{
+if (v1 > v2) {
     Console.WriteLine($"{v1} é maior que {v2}");
-}
-else
-{
+} else {
     Console.WriteLine($"{v1} é menor que {v2}");
 }
 
@@ -159,7 +158,7 @@ bool palmeirasTemMundial = false;
 
 //ARRAY/vetor unidimencional
 int[] array01 = new int[5]; //declaração de array com 5 posições (0 a 4)
-int[] array02 = new int[3] {0, 55, 40};
+int[] array02 = new int[3] { 0, 55, 40 };
 int[] array03 = { 0, 20, 440 };
 
 array01[4] = 1;
@@ -181,8 +180,8 @@ Console.WriteLine(array03[2]);// 440
 
 
 //array bidimencional
-int[,] arrayBi1 = new int[5,3]; //5 linhas e 3 colunas
-int[,] arrayBi2 = new int[2, 2] {{ 10, 20 }, { 15, 30 }};
+int[,] arrayBi1 = new int[5, 3]; //5 linhas e 3 colunas
+int[,] arrayBi2 = new int[2, 2] { { 10, 20 }, { 15, 30 } };
 /*
  * 0 20 30
  * 2 30 11 
@@ -190,12 +189,12 @@ int[,] arrayBi2 = new int[2, 2] {{ 10, 20 }, { 15, 30 }};
  * 8 99 98
  * 0 15 23
  */
-arrayBi1[0,2] = 30;
-arrayBi1[4,2] = 23;
-arrayBi1[2,1] = 14;
-arrayBi1[0,0] = 0;
-arrayBi1[3,2] = 99;
-arrayBi1[4,1] = 15;
+arrayBi1[0, 2] = 30;
+arrayBi1[4, 2] = 23;
+arrayBi1[2, 1] = 14;
+arrayBi1[0, 0] = 0;
+arrayBi1[3, 2] = 99;
+arrayBi1[4, 1] = 15;
 
 
 Console.WriteLine("LAÇO FOR:");
@@ -204,8 +203,7 @@ Console.WriteLine("LAÇO FOR:");
 //Principalmente usado quando se sabe o numero de comandos
 
 //   contador  ; expressao logica  ; incremento ou decremento
-for (int x = 0 ; x < array01.Length; x++ )
-{
+for (int x = 0; x < array01.Length; x++) {
     Console.WriteLine(array01[x]);
     if (array01[x] == 2) break;
 }
@@ -213,11 +211,9 @@ for (int x = 0 ; x < array01.Length; x++ )
 // FOREACH
 int[] numbers = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 int total = 0;
-foreach (int number in numbers)
-{
+foreach (int number in numbers) {
     total += number;
-    if (number == 3)
-    {
+    if (number == 3) {
         Console.WriteLine(" Acessei o IF e retornei ao foreach");
         continue;
     }
@@ -231,10 +227,8 @@ foreach (int number in numbers)
 // WHILE ñ tiver certeza da quantidade de operações
 
 int anoAtual = 2022;
-while (!palmeirasTemMundial)
-{
-    while (anoAtual < 3000)
-    {
+while (!palmeirasTemMundial) {
+    while (anoAtual < 3000) {
         Console.WriteLine("Cheirinho, Ano = {0} ", anoAtual);
         anoAtual++;
     }
@@ -244,8 +238,7 @@ Console.WriteLine($"Ano= {anoAtual}, TALVEZ, QUASE CERTEZA Q Ñ");
 Console.Clear();
 
 
-do
-{
+do {
     Console.WriteLine("Acesso pelo menos 1 vez");
 } while (!palmeirasTemMundial);
 

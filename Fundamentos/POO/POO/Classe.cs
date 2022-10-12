@@ -1,30 +1,25 @@
-﻿namespace POO
-{
+﻿namespace POO {
 
     //especificador de acesso(onde a classe pode ser instanciada): public, internal, private, protected
     //Classe abstratc, classe base, como base para criação de outras classe
     //sealed: Não pode ser herdada
     //static: Não permite a intanciação de objetos e seus membros devem ser herdados
 
-    public class Classe : ClasseBase
-    {
+    public class Classe : ClasseBase {
         public string AtributoFilha { get; set; }
         public string AtributoFilho { get; set; }
 
         //Construtor
-        public Classe(): base()
-        {
+        public Classe() : base() {
 
         }
 
         //Sobrecarga
-        public Classe(string atributoFilha)
-        {
+        public Classe(string atributoFilha) {
             AtributoFilha = atributoFilha;
         }
 
-        public Classe(string atributoFilho, string atributoFilha)
-        {
+        public Classe(string atributoFilho, string atributoFilha) {
             AtributoFilho = atributoFilho;
             AtributoFilha = atributoFilha;
         }
@@ -46,8 +41,7 @@
             Console.WriteLine("faz uma coisa");
         }
 
-        public override void MetodoAbstrato()
-        {
+        public override void MetodoAbstrato() {
             Console.WriteLine("metodo obrigatório por ser abstrato na base");
         }
     }
