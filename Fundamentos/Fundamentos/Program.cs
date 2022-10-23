@@ -1,6 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Fundamentos;
+using Fundamentos.Ex;
 using System.Globalization;
+
+
+var exercicio2A = Exercicio02.Exercicio2(3.0, 4.0, 5.0, 7.5, 4.5, 5.5); // resolução 01
+var exercicio2B = Exercicio02.Exercicio2(new Exercicio02TrianguloModel(3.0, 4.0, 5.0), new Exercicio02TrianguloModel(7.5, 4.5, 5.5)); // resolução 02 utilizando objetos complexos
+
+var raio = 3.0;
+Calculadora.Circunferencia(raio);
+Calculadora.Volume(raio);
+
 
 //TIPOS
 // - Para tipos inteiros
