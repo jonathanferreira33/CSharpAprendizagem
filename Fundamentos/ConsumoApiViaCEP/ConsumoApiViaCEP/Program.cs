@@ -44,7 +44,7 @@ string EnderecoFormatado(CEPResponse address) {
         $"Complemento: {address.Complemento} \n" +
         $"Bairro: {address.Bairro} \n" +
         $"CEP: {address.Cep} \n" +
-        $"Cidade: {address.Localidade} \n" +
+        $"Cidade: {address.Localidade} - {address.Uf} \n" +
         $"DDD: {address.Ddd} \n" +
         $"IBGE: {address.Ibge} \n";
 }

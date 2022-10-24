@@ -2,7 +2,7 @@
 
 namespace ConsumoApiViaCEP.Reponse {
     public class CEPResponse {
-        [JsonProperty("cep")]
+        //[JsonProperty("cep")]
         public string Cep { get; set; }
 
         [JsonProperty("logradouro")]

@@ -1,0 +1,15 @@
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\bin\Debug\net6.0\ModificadoresDeAcesso.exe
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\bin\Debug\net6.0\ModificadoresDeAcesso.deps.json
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\bin\Debug\net6.0\ModificadoresDeAcesso.runtimeconfig.json
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\bin\Debug\net6.0\ModificadoresDeAcesso.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\bin\Debug\net6.0\ref\ModificadoresDeAcesso.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\bin\Debug\net6.0\ModificadoresDeAcesso.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ModificadoresDeAcesso.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ModificadoresDeAcesso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ModificadoresDeAcesso.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ModificadoresDeAcesso.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ModificadoresDeAcesso.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ModificadoresDeAcesso.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ref\ModificadoresDeAcesso.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ModificadoresDeAcesso.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ModificadoresDeAcesso\obj\Debug\net6.0\ModificadoresDeAcesso.genruntimeconfig.cache

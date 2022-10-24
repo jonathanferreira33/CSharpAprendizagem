@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamentos", "Fundamentos\Fundamentos.csproj", "{B705B452-785C-469B-824D-6814E1C80FA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos", "Fundamentos\Fundamentos.csproj", "{B705B452-785C-469B-824D-6814E1C80FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModificadoresDeAcesso", "ModificadoresDeAcesso\ModificadoresDeAcesso.csproj", "{CA5B074B-9145-4764-88C8-9A5C00F8397E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio04-Banco", "Exercicio04-Banco\Exercicio04-Banco.csproj", "{F6D039A6-6964-43F0-897A-EEA4A8D1B163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B705B452-785C-469B-824D-6814E1C80FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B705B452-785C-469B-824D-6814E1C80FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B705B452-785C-469B-824D-6814E1C80FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5B074B-9145-4764-88C8-9A5C00F8397E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5B074B-9145-4764-88C8-9A5C00F8397E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5B074B-9145-4764-88C8-9A5C00F8397E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5B074B-9145-4764-88C8-9A5C00F8397E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D039A6-6964-43F0-897A-EEA4A8D1B163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D039A6-6964-43F0-897A-EEA4A8D1B163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D039A6-6964-43F0-897A-EEA4A8D1B163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D039A6-6964-43F0-897A-EEA4A8D1B163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,4 +17,3 @@ C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ConsumoApiViaCEP
 C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ConsumoApiViaCEP\ConsumoApiViaCEP\obj\Debug\net6.0\ConsumoApiViaCEP.pdb
 C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ConsumoApiViaCEP\ConsumoApiViaCEP\obj\Debug\net6.0\ConsumoApiViaCEP.genruntimeconfig.cache
 C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ConsumoApiViaCEP\ConsumoApiViaCEP\bin\Debug\net6.0\RestSharp.dll
-C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\ConsumoApiViaCEP\ConsumoApiViaCEP\bin\Debug\net6.0\Json.Net.dll
