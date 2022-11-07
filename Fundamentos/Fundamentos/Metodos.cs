@@ -150,5 +150,11 @@ namespace Fundamentos
         //CONTRUIR METODO QUE RECEBE UM ARRAY
         //MULTIPLICA CADA VALOR POR 2
         //E RETORNA EM ORDEM DECRESCENTE   
+
+        public static void MetodoParaImprimirLista(List<string> lista) {
+            foreach (var item in lista) {
+                Console.WriteLine(item.ToString());
+            }
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Fundamentos;
 using Fundamentos.Ex;
+using Fundamentos.Models;
 using System.Globalization;
 
 
@@ -171,6 +172,14 @@ int[] array01 = new int[5]; //declaração de array com 5 posições (0 a 4)
 int[] array02 = new int[3] { 0, 55, 40 };
 int[] array03 = { 0, 20, 440 };
 
+double[] vetor01 = new double[5];
+Vetores.PopularVetor(vetor01);
+
+Produto[] vetorProdutos = new Produto[5];
+Vetores.PopularVetor(vetorProdutos);
+
+
+
 array01[4] = 1;
 array01[2] = 3;
 array01[3] = 2;
@@ -206,6 +215,16 @@ arrayBi1[0, 0] = 0;
 arrayBi1[3, 2] = 99;
 arrayBi1[4, 1] = 15;
 
+int dez = 10;
+int triplo;
+Console.WriteLine("Calculadora");
+Console.WriteLine(CalculadoraComParams.SomarVerboso(new double[] { 10, 20, 30, 40, 60 }));
+Console.WriteLine(CalculadoraComParams.Somar( 10, 20, 30, 40, 60 ));
+CalculadoraComParams.Triplicar(ref dez);
+Console.WriteLine(dez);
+
+CalculadoraComParams.Triplicar(dez, out triplo);
+Console.WriteLine(triplo);
 
 Console.WriteLine("LAÇO FOR:");
 
@@ -254,6 +273,31 @@ do {
 
 
 
+//LISTAS
+
+Listas.listaDeNomes.Add("Ferreira"); 
+Listas.listaDeNomes.Insert(0, "Mielnik");
+
+Console.WriteLine(Listas.listaDeNomes.Count);
+
+//(x => x ==) =expressão lambida(função anonima)
+Console.WriteLine(Listas.listaDeNomes.Find(predicado => predicado[0] == 'F'));
+Console.WriteLine(Listas.listaDeNomes.FindLast(predicado => predicado[predicado.Length - 1] == 'k'));
+
+Console.WriteLine(Listas.listaDeNomes.FindIndex(predicado => predicado[0] == 'F'));
+Console.WriteLine(Listas.listaDeNomes.FindLastIndex(predicado => predicado[predicado.Length - 1] == 'k')); // se ñ encontrar retorna -1
+
+List<string> resultadoDoFiltro = Listas.listaDeNomes.FindAll(predicado => predicado.Length <= 7); 
+Metodos.MetodoParaImprimirLista(resultadoDoFiltro);
+
+
+Listas.listaDeNomes.Remove("Mielnik");
+Metodos.MetodoParaImprimirLista(Listas.listaDeNomes);
+Listas.listaDeNomes.RemoveAll(predicado => predicado[0] == 'I');
+Metodos.MetodoParaImprimirLista(Listas.listaDeNomes);
+
+Listas.listaDeNomes.RemoveAt(0);
+Metodos.MetodoParaImprimirLista(Listas.listaDeNomes);
 
 
 
