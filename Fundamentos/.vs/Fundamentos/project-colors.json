@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b705b452-785c-469b-824d-6814e1c80fa0": {
+      "ProjectGuid": "b705b452-785c-469b-824d-6814e1c80fa0",
+      "DisplayName": "Fundamentos",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ca5b074b-9145-4764-88c8-9a5c00f8397e": {
+      "ProjectGuid": "ca5b074b-9145-4764-88c8-9a5c00f8397e",
+      "DisplayName": "ModificadoresDeAcesso",
+      "ColorIndex": 1
+    },
+    "f6d039a6-6964-43f0-897a-eea4a8d1b163": {
+      "ProjectGuid": "f6d039a6-6964-43f0-897a-eea4a8d1b163",
+      "DisplayName": "Exercicio04-Banco",
+      "ColorIndex": 2
+    },
+    "bf570520-1738-4bcb-aeac-d006cab0369a": {
+      "ProjectGuid": "bf570520-1738-4bcb-aeac-d006cab0369a",
+      "DisplayName": "Empresa",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ceaa17bc-fa60-4e65-bbc6-baf8b9188dc9": {
+      "ProjectGuid": "ceaa17bc-fa60-4e65-bbc6-baf8b9188dc9",
+      "DisplayName": "Composicao",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

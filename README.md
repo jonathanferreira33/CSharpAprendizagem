@@ -1,5 +1,9 @@
 ## Fundamentos
 
+![alt Tipos](Fundamentos/Fundamentos/imgs/Tipos.jpg)
+
+![alt Tipos](Fundamentos/Fundamentos/imgs/Tipos02.jpg)
+
 01 - Primeiro Programa
 02 - Variaveis de Constantes
 03 - Tipos

@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "descricao": "Uma empresa precisa gerar as parcelas a serem pagas para cada contrato com base no número de meses desejado. O sistema atual, Paypal, cobra juros simples de 1% por parcela + 2% de taxa de pagamento",
+  "dados_contrato": "numero, data, valor do contrato",
+  "saida": "data e valor de cada parcela, com a primeira a ser paga um mês após a data do contrato",
+  "ex": "contrato:8028, data: 11/02/2024, valor: 600, numero de parcelas:3, result: 11/03/2024 = R$206,4((200*1*1)+2%), 11/04/2024 =R$208.8((200 * 1% * 2)+2%) ... "
+}

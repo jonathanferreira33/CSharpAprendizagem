@@ -1,0 +1,14 @@
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\bin\Debug\netcoreapp3.1\Composicao.exe
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\bin\Debug\netcoreapp3.1\Composicao.deps.json
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\bin\Debug\netcoreapp3.1\Composicao.runtimeconfig.json
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\bin\Debug\netcoreapp3.1\Composicao.runtimeconfig.dev.json
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\bin\Debug\netcoreapp3.1\Composicao.dll
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\bin\Debug\netcoreapp3.1\Composicao.pdb
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\obj\Debug\netcoreapp3.1\Composicao.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\obj\Debug\netcoreapp3.1\Composicao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\obj\Debug\netcoreapp3.1\Composicao.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\obj\Debug\netcoreapp3.1\Composicao.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\obj\Debug\netcoreapp3.1\Composicao.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\obj\Debug\netcoreapp3.1\Composicao.dll
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\obj\Debug\netcoreapp3.1\Composicao.pdb
+C:\Users\Jonathan\Desktop\CSharp\Composicao\Composicao\obj\Debug\netcoreapp3.1\Composicao.genruntimeconfig.cache

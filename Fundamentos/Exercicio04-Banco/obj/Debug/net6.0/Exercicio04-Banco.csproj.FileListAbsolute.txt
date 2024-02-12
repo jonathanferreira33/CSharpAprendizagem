@@ -1,0 +1,15 @@
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\bin\Debug\net6.0\Exercicio04-Banco.exe
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\bin\Debug\net6.0\Exercicio04-Banco.deps.json
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\bin\Debug\net6.0\Exercicio04-Banco.runtimeconfig.json
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\bin\Debug\net6.0\Exercicio04-Banco.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\bin\Debug\net6.0\ref\Exercicio04-Banco.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\bin\Debug\net6.0\Exercicio04-Banco.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\Exercicio04-Banco.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\Exercicio04-Banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\Exercicio04-Banco.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\Exercicio04-Banco.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\Exercicio04-Banco.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\Exercicio04-Banco.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\ref\Exercicio04-Banco.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\Exercicio04-Banco.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Exercicio04-Banco\obj\Debug\net6.0\Exercicio04-Banco.genruntimeconfig.cache

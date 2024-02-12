@@ -1,0 +1,12 @@
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\bin\Debug\FormDeTestes.exe.config
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\bin\Debug\FormDeTestes.exe
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\bin\Debug\FormDeTestes.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.fmrPrincipal.resources
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.Properties.Resources.resources
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.csproj.GenerateResource.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.exe
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\FormDeTestes\FormDeTestes\obj\Debug\FormDeTestes.frmAvisoErro.resources

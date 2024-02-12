@@ -1,0 +1,15 @@
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\bin\Debug\net6.0\TExcecoes.exe
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\bin\Debug\net6.0\TExcecoes.deps.json
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\bin\Debug\net6.0\TExcecoes.runtimeconfig.json
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\bin\Debug\net6.0\TExcecoes.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\bin\Debug\net6.0\ref\TExcecoes.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\bin\Debug\net6.0\TExcecoes.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\TExcecoes.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\TExcecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\TExcecoes.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\TExcecoes.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\TExcecoes.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\TExcecoes.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\ref\TExcecoes.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\TExcecoes.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\TExcecoes\TExcecoes\obj\Debug\net6.0\TExcecoes.genruntimeconfig.cache
