@@ -1,0 +1,14 @@
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\bin\Debug\netcoreapp3.1\Enumeracoes.exe
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\bin\Debug\netcoreapp3.1\Enumeracoes.deps.json
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\bin\Debug\netcoreapp3.1\Enumeracoes.runtimeconfig.json
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\bin\Debug\netcoreapp3.1\Enumeracoes.runtimeconfig.dev.json
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\bin\Debug\netcoreapp3.1\Enumeracoes.dll
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\bin\Debug\netcoreapp3.1\Enumeracoes.pdb
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\obj\Debug\netcoreapp3.1\Enumeracoes.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\obj\Debug\netcoreapp3.1\Enumeracoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\obj\Debug\netcoreapp3.1\Enumeracoes.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\obj\Debug\netcoreapp3.1\Enumeracoes.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\obj\Debug\netcoreapp3.1\Enumeracoes.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\obj\Debug\netcoreapp3.1\Enumeracoes.dll
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\obj\Debug\netcoreapp3.1\Enumeracoes.pdb
+C:\Users\Jonathan\Desktop\CSharp\Enumeracoes\Enumeracoes\obj\Debug\netcoreapp3.1\Enumeracoes.genruntimeconfig.cache

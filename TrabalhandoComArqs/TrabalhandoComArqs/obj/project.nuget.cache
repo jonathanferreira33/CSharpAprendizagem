@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6XHgwIRAvg2ENbOwEwDZ79j2mAa+5I3rQxYfL3oajiBCpOsBlUhPoZyP70LaW/y2feZ40YhcVFIrZ6dqPWux1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jonathan\\Desktop\\CSharp\\TrabalhandoComArqs\\TrabalhandoComArqs\\TrabalhandoComArqs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.32.2\\microsoft.identitymodel.abstractions.6.32.2.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.identitymodel.logging\\6.32.2\\microsoft.identitymodel.logging.6.32.2.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.32.2\\microsoft.identitymodel.protocols.6.32.2.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.32.2\\microsoft.identitymodel.tokens.6.32.2.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

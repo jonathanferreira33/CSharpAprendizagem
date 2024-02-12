@@ -300,6 +300,59 @@ Listas.listaDeNomes.RemoveAt(0);
 Metodos.MetodoParaImprimirLista(Listas.listaDeNomes);
 
 
+// Topoicos especiais C#
+
+var jF = "jF"; //Inferencia de tipos
+var result = (4 > 2) ? true : false; // condicional ternaria
+
+string original = "-abcde FGHIJ KLM nop RSTUV ab    ";
+string s1 = original.ToUpper(); // converter p maiusculas
+string s2 = original.ToLower(); // minusculas
+string s3 = original.Trim(); // apagas os espaços em branco no começo ou fim
+string s4 = original.IndexOf("nop"); // procura a primeira ocorrencia e devolve o index da oc na string, pode-se usar string, index,
+string s5 = original.LastIndexOf("abc"); // ultima ocorrencia
+string s6 = original.Substring(3); // "recortar string, devolve o q foi recortado
+string s6 = original.Substring(3, 5); // "recortar (começo, quantidade de carac. cortados), ou seja 5 caracteres apos a posição 3
+string s7 = original.Replace('a', 'x');//substituir uma parte. Nessa caso substitui todos os caracteres "a" por "x", 
+string s8 = original.Replace('abc', 'XPTO');
+
+bool b1 = String.IsNullOrEmpty(original); //verifica se é nula
+bool b2 = String.IsNullOrWhiteSpace(original); //verifica se é nula ou espaço em branco
+
+string original2 = "1";
+// Converter sting para numero
+int i1 = int.Parse(original2);
+int i2 = Convert.ToInt32(original2);
+
+
+// Datetime
+// representa um instante e é um tipo struct
+
+DateTime d1 = DateTime.Now; //instante atual do sistema
+//Construtoress
+DateTime d2 = new DateTime(1993, 7, 22);
+DateTime d3 = new DateTime(1993, 7, 22, 14, 30, 2);
+DateTime d4 = new DateTime(1993, 7, 22, 14, 30, 2, 22);
+DateTime d5 = DateTime.UtcNow; // data atual porem GMT 0
+DateTime d6 = DateTime.Today; // data de hj com horario zerado
+DateTime d7 = DateTime.Parse("1999-07-22"); //Converter string para data
+DateTime d8 = DateTime.Parse("1999-07-22 14:05:33"); //Converter string para data
+DateTime d9 = DateTime.Parse("22/07/1994 14:05:33"); 
+
+TimeSpan t1 = TimeSpan.Zero;
+TimeSpan t2 = new TimeSpan(0, 1, 30); //hh mm segundo
+Console.WriteLine(t2);
+Console.WriteLine(t2.Ticks);
+TimeSpan t3 = new TimeSpan(); //00:00:00
+TimeSpan t4 = new TimeSpan(900000000L); //01:30:00
+TimeSpan t5 = new TimeSpan(2, 1, 12, 55); // 1 dia ...
+TimeSpan t6 = new TimeSpan(10, 0, 33, 59, 1); // 1 dia ...
+
+TimeSpan t7 = TimeSpan.FromDays(0.5); //12h
+
+
+
+
 
 
 

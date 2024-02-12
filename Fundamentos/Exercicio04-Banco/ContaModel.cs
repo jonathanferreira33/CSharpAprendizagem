@@ -31,7 +31,7 @@ namespace Exercicio04_Banco {
         }
 
         public double ConsultaSaldo() {
-            return this.Saldo;
+            return Saldo;
         }
 
         public void Deposito(double deposito) {
@@ -45,7 +45,7 @@ namespace Exercicio04_Banco {
         public string Extrato(int numeroConta) {
             var conta = DataBase.listaDeContas[numeroConta];
 
-            return $"Extrato \n cc:{conta.NumeroConta}\n Titular: {conta.NomeTitular} \n Saldo R$ {conta.ConsultaSaldo}";
+            return $"Extrato \n cc:{conta.NumeroConta}\n Titular: {conta.NomeTitular} \n Saldo R$ {conta.Saldo}";
         }
 
         public void MudarNome(string novoNome) {

@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FormDeTestes {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class frmAvisoErro : Form {
+        public frmAvisoErro() {
             InitializeComponent();
         }
+
     }
 }

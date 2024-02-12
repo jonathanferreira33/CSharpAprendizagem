@@ -16,6 +16,5 @@
         // Filtrar a lista com base em um predicado: list.FindAll
         // Remover elementos: remove, RemoveAll, RemoveAt, RemoveRange
 
-
     }
 }

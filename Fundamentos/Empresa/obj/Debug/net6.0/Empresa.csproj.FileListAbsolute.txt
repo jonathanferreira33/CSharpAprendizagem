@@ -1,0 +1,15 @@
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\bin\Debug\net6.0\Empresa.exe
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\bin\Debug\net6.0\Empresa.deps.json
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\bin\Debug\net6.0\Empresa.runtimeconfig.json
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\bin\Debug\net6.0\Empresa.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\bin\Debug\net6.0\ref\Empresa.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\bin\Debug\net6.0\Empresa.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\Empresa.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\Empresa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\Empresa.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\Empresa.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\Empresa.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\Empresa.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\ref\Empresa.dll
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\Empresa.pdb
+C:\Users\Jonathan\Desktop\CSharp\CSharpAprendizagem\Fundamentos\Empresa\obj\Debug\net6.0\Empresa.genruntimeconfig.cache
